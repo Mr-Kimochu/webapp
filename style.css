@@ -1,0 +1,53 @@
+/* Style for the red header */
+.red-header {
+    background-color: rgb(41, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+#dropZone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#dropZone::before {
+    content: "\2601"; /* Unicode character for a cloud icon */
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#uploadedImage {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#removeButton {
+    display: none;
+}
+
+/* Style for the background image */
+.bg-image {
+    background-image: url('potatoe.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the image drop zone */
+.image-drop-zone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
